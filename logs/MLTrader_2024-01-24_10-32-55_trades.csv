@@ -1,0 +1,5 @@
+time,strategy,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2020-04-30 09:30:00-04:00,MLTrader,GOOG,buy,market,new,1,gtc,0.0,1,stock,,,
+2020-04-30 09:30:00-04:00,MLTrader,GOOG,buy,market,fill,1,gtc,0.0,1,stock,66.42500305175781,753.0,0.0
+2020-05-01 09:30:00-04:00,MLTrader,GOOG,buy,market,new,1,gtc,0.0,1,stock,,,
+2020-05-01 09:30:00-04:00,MLTrader,GOOG,buy,market,fill,1,gtc,0.0,1,stock,66.42500305175781,376.0,0.0

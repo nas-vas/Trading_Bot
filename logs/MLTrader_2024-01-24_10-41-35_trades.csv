@@ -1,0 +1,9 @@
+time,strategy,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2020-01-30 09:30:00-05:00,MLTrader,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2020-01-30 09:30:00-05:00,MLTrader,AAPL,buy,market,fill,1,gtc,0.0,1,stock,80.13500213623047,1123.0,0.0
+2020-02-03 08:30:00-05:00,MLTrader,AAPL,sell,limit,canceled,1,day,0.0,1,stock,,,
+2020-02-03 08:30:00-05:00,MLTrader,AAPL,sell,stop,fill,1,day,0.0,1,stock,76.07499694824219,1123.0,0.0
+2020-05-04 09:30:00-04:00,MLTrader,AAPL,buy,market,new,1,gtc,0.0,1,stock,,,
+2020-05-04 09:30:00-04:00,MLTrader,AAPL,buy,market,fill,1,gtc,0.0,1,stock,73.76499938964844,1164.0,0.0
+2020-06-09 09:30:00-04:00,MLTrader,AAPL,sell,stop,canceled,1,day,0.0,1,stock,,,
+2020-06-09 09:30:00-04:00,MLTrader,AAPL,sell,limit,fill,1,day,0.0,1,stock,88.51799926757812,1164.0,0.0
