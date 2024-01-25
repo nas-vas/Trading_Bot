@@ -1,0 +1,64 @@
+2024-01-25 14:46:52,040: root: INFO: MLTrader : Executing the initialize lifecycle method
+2024-01-25 14:46:54,319: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-01-25 14:46:54,320: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-25 14:46:54,322: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-01-25 14:46:54,322: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-25 14:46:54,325: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-25 14:46:54[0m
+2024-01-25 14:46:54,325: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,342: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,343: root: INFO: [32mNew market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status unprocessed was submitted.[0m
+2024-01-25 14:46:54,348: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-25 14:46:54[0m
+2024-01-25 14:46:54,348: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-25 14:46:54,348: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,349: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,350: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was sent to broker backtesting
+2024-01-25 14:46:54,350: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was sent to broker backtesting
+2024-01-25 14:46:54,350: root: INFO: [32mFilled Transaction: buy 106.0 of SPY at 469.48999023 USD per share[0m
+2024-01-25 14:46:54,351: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was filled
+2024-01-25 14:46:54,358: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-25 14:46:54,361: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-01-25 14:46:54,361: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-01-25 14:46:54,364: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-01-25 14:46:54,364: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-25 14:46:54,364: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,365: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,366: root: INFO: limit order of | 106.0 SPY sell | at price $563.3879882812499 with status unprocessed was canceled.
+2024-01-25 14:46:54,370: root: INFO: [32mFilled Transaction: sell 106.0 of SPY at 469.48999023 USD per share[0m
+2024-01-25 14:46:54,370: root: INFO: limit order of | 106.0 SPY sell | at price $446.01549072265624 with status unprocessed was filled
+2024-01-25 14:46:54,371: root: INFO: Position 0.000000 shares of SPY liquidated
+2024-01-25 14:46:54,379: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-25 14:46:54,382: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-25 14:46:54,382: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-01-25 14:46:54,384: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-01-25 14:46:54,385: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-25 14:46:54,387: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-01-25 14:46:54,387: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-25 14:46:54,391: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-25 14:46:54[0m
+2024-01-25 14:46:54,391: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,393: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-25 14:46:54,394: root: ERROR: local variable 'order' referenced before assignment
+2024-01-25 14:46:54,396: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 831, in run
+    self._run_trading_session()
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 782, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "C:\Users\atanas.vasev\AppData\Local\anaconda3\envs\trader\lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "c:\Users\atanas.vasev\Desktop\Artifical Inteligence Module\Deep Learning\Trading_Bot\Position_Sizing.py", line 43, in on_trading_iteration
+    self.submit_order(order)
+UnboundLocalError: local variable 'order' referenced before assignment
+
+2024-01-25 14:46:54,399: root: INFO: MLTrader : Executing the on_bot_crash event method
+2024-01-25 14:46:54,840: root: INFO: Backtesting finished
+2024-01-25 14:46:56,666: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-01-25 14:46:56,667: backtest_stats: INFO: Backtest took 0:00:04.628866 for a speed of 0.000
