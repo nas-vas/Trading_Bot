@@ -19,7 +19,7 @@ ALPACA_CREDS = {
 
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2023, 12, 31)
-symbol_to_trade = "TSLA"  # Change this to the desired symbol
+symbol_to_trade = "SPY"  # Change this to the desired symbol
 cash_at_risk = 0.5
 
 class MLTrader(Strategy):
