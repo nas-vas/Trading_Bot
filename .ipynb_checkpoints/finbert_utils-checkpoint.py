@@ -23,6 +23,6 @@ def estimate_sentiment(news):
 
 #Exmple
 if __name__ == "__main__":
-    tensor, sentiment = estimate_sentiment(['Markets surged in enthusiastic response to the latest news!','Traders celebrated as the market witnessed a favorable turn of events!'])
+    tensor, sentiment = estimate_sentiment(['markets responded negatively to the news!','traders were displeased!'])
     print(tensor, sentiment)
     print(torch.cuda.is_available())
