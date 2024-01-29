@@ -1,3 +1,4 @@
 1. Why use Neural network
 2. Why im using ready NN and not train one myself
 3. What else i coud use instead of FinBERT and BERT
+4. Whach the video of how finber_utils is used in youtube
